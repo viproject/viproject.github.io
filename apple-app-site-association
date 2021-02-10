@@ -1,0 +1,17 @@
+{
+	"applinks": {
+		"apps": [],
+		"details": [
+			{
+				"appIDs": ["N82L7Z8JJ9.com.viprojectapp.viprojectplus2"],
+				 "components": [
+               
+               {
+                  "/": "buy/*",
+                  "comment": "Matches any URL whose path starts with /buy/"
+               }
+             ]
+			}
+		]
+	}
+}
