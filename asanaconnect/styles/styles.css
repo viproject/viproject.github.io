@@ -27,17 +27,18 @@ div {
 {
   height:30px;
   width:300px;
+  font-size: larger;
 }
 
 button
 {
   height:30px;
   width:150px;
-  border-radius:8px;
+/*  border-radius:8px;*/
   padding:10px;
   font-size:20px;
-  font-family: 'Oswald', sans-serif;
-  height:52px;
+/*  font-family: 'Oswald', sans-serif;*/
+/*  height:52px;*/
   cursor:pointer;
-  background-color:wheat;
+/*  background-color:wheat;*/
 }
