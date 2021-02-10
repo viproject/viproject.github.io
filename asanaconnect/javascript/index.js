@@ -38,6 +38,10 @@ function copyCodeToClipboard() {
   alert("Copied the text: " + copyText.value);
 }
 
+function openInViProjectApp () {
+    window.open('viprojectappplus:/?code=' + getAsanaCode (), '_blank');
+}
+
 
 
 
