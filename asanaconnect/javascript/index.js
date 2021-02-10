@@ -9,7 +9,7 @@ window.onload = function() {
         node = document.getElementById('if-part');
     }
     else {
-        node = document.getElementById('else-part');
+        node = document.getElementById('no-code');
     }
     node.style.visibility = 'visible';
 }
