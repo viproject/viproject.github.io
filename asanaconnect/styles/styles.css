@@ -44,6 +44,8 @@ a.button {
     -moz-appearance: button;
     appearance: button;
 
+    height:40px;
+    width:300px;
     text-decoration: none;
-    color: initial;
+    color: blue;
 }
