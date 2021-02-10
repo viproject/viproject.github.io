@@ -7,8 +7,8 @@
 				 "components": [
                
                {
-                  "/": "buy/*",
-                  "comment": "Matches any URL whose path starts with /buy/"
+                  "/": "asanaconnect/*",
+                  "comment": "Matches any URL whose path starts with /asanaconnect/"
                }
              ]
 			}
