@@ -1,6 +1,8 @@
-document.getElementById('date').innerHTML = new Date().toDateString();
 
 window.onload = function() {
+    
+    document.getElementById('date').innerHTML = new Date().toDateString();
+    
     var node;
     if(true) {
         node = document.getElementById('if-part');
