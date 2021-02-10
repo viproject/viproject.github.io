@@ -7,7 +7,7 @@ window.onload = function() {
     const asana_code = getAsanaCode();
     if(asana_code) {
         node = document.getElementById('if-part');
-        document.getElementById('code-box').value = asana_code;
+        document.getElementById('code-box').placeholder = asana_code;
     }
     else {
         node = document.getElementById('no-code');
