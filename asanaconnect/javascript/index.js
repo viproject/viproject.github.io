@@ -7,7 +7,7 @@ window.onload = function() {
     const asana_code = getAsanaCode();
     if(asana_code) {
         node = document.getElementById('if-part');
-        document.getElementById('code-box').placeholder = asana_code;
+        document.getElementById('code-box').value = asana_code;
     }
     else {
         node = document.getElementById('no-code');
@@ -29,6 +29,21 @@ function copyToClipboard(element) {
   $temp.val($(element).text()).select();
   document.execCommand("copy");
   $temp.remove();
+}
+
+function copyCodeToClipboard() {
+  /* Get the text field */
+  var copyText = document.getElementById("code-box");
+
+  /* Select the text field */
+  copyText.select();
+  copyText.setSelectionRange(0, 99999); /* For mobile devices */
+
+  /* Copy the text inside the text field */
+  document.execCommand("copy");
+
+  /* Alert the copied text */
+  alert("Copied the text: " + copyText.value);
 }
 
 
