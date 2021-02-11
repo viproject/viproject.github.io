@@ -47,7 +47,7 @@ function copyCodeToClipboard() {
 }
 
 function openInViProjectApp () {
-    window.open('viprojectplus:asanalogin?code=' + getAsanaCode() + '?state=' + getAsanaState(), '_blank');
+    window.open('viprojectplus:asanalogin?code=' + getAsanaCode() + '&state=' + getAsanaState(), '_blank');
 }
 
 
