@@ -23,6 +23,14 @@ function getAsanaCode () {
     return code_asana;
 }
 
+function getAsanaState () {
+    
+    const queryString = window.location.search;
+    const urlParams = new URLSearchParams(queryString);
+    const code_asana = urlParams.get('state');
+    return code_asana;
+}
+
 function copyCodeToClipboard() {
   /* Get the text field */
   var copyText = document.getElementById("code-box");
@@ -39,7 +47,7 @@ function copyCodeToClipboard() {
 }
 
 function openInViProjectApp () {
-    window.open('viprojectplus:asanalogin?code=' + getAsanaCode (), '_blank');
+    window.open('viprojectplus:asanalogin?code=' + getAsanaCode() + '?state=' + getAsanaState(), '_blank');
 }
 
 
